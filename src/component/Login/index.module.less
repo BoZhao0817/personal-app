@@ -1,0 +1,28 @@
+.loginContainer {
+  background-color: lightskyblue;
+  margin: 0 auto;
+  height: 100vh;
+  .login {
+    // https://css-tricks.com/centering-css-complete-guide/
+    padding-top: 300px;
+    width: 400px;
+    margin: 0 auto;
+    // css module
+    :global {
+      .ant-tabs.ant-tabs-top {
+        margin-bottom: 20px;
+        text-align: center;
+        &:before {
+          border-bottom: 0;
+        }
+        .ant-tabs-nav-list{
+          margin: 0 auto;
+
+        }
+
+      }
+    }
+
+  }
+
+}
